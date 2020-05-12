@@ -1,0 +1,48 @@
+body{
+    /*background-color: rgb(101, 101, 148);*/
+    background-image: url("image.jpg");
+    background-size: auto 100vh;/*vh e uma porcentagem fixa*/
+    color: #A9A9A9;
+    font-family: -apple-system, 
+        BlinkMacSystemFont, 
+        'Segoe UI', 
+        Roboto, 
+        Oxygen, 
+        Ubuntu, 
+        Cantarell, 
+        'Open Sans', 
+        'Helvetica Neue', 
+        sans-serif;
+}
+/*
+
+    O body e uma tag ja definida no html <body> entao nao e necessario o .
+    Ja o menu foi definido como ponto pois o mesmo foi auto-atribuido pelo css
+
+*/
+.menu{
+    background-color: #828282;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around
+}
+
+.menu li{
+    list-style: none;
+}
+
+a{
+    color: rgb(42, 42, 49);
+    text-decoration: none;
+}
+
+.site-title,.site-subtitle{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.site-subtitle{
+
+}
