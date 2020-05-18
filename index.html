@@ -2,26 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--essa tag deixa a pagina responsiva-->
+    <title>Giovanni</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">  
 </head>
 <body>
+
     <header>
-
-        <link href="css/style.css" rel="stylesheet">
-
+       
         <nav class = "menu">
             <ul>
                 <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portifolio</a></li>
+                <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
 
-        <h1 class="site-title"> Giovanni Nascimento</h1>
-        <h2 class="site-subtitle"> jr. frontend web developer</h2>
 
+        <div><!--Essa Div foi feita para enquadrar o h1 e h2 em um mesmo contexto
+                no css os mesmos serao colocados como colunas devido ao display:flex -->
+            <h1 class="site-title"> Giovanni Nascimento</h1>
+            <h2 class="site-subtitle"> jr. frontend web developer</h2>
+        </div>
 
     </header>
+
+    <section class="portfolio">
+
+        <h2>
+            Portfolio
+        </h2>
+
+        <div class="grid">
+            <figure>
+                <img class="img-portfolio" src="css/img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
+                <figcaption>eCommerce</figcaption>
+            </figure>
+            <figure>
+                <img class="img-portfolio" src="css/img/mobile-creditos-nate-grant-unsplash.jpg" alt="Mobile">
+                <figcaption>Mobile</figcaption>
+            </figure>
+            <figure>
+                <img class="img-portfolio" src="css/img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="web Design">
+                <figcaption>web Design</figcaption>
+            </figure>
+            <figure>
+                <img class="img-portfolio" src="css/img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos Pessoais">
+                <figcaption>Projetos Pessoais</figcaption>
+            </figure>  
+        </div>
+
+              
+    </section>
+
 </body>
 </html>
